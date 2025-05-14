@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nice Tutorial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <div id="title">Nice Tutorial</div>
+        <div id="page1" class="page active">
+            <div class="content">
+                <h2>Page 1: Introduction</h2>
+                <p>Welcome to this nice tutorial. We will guide you through some interesting steps. Click the next button to continue.</p>
+            </div>
+            <button id="next-button" onclick="nextPage()">Next</button>
+        </div>
+        <div id="page2" class="page">
+            <div class="content">
+                <h2>Page 2: Step 1</h2>
+                <p>This is the first step of the tutorial. Follow the instructions carefully. Click the next button to continue.</p>
+            </div>
+            <button id="next-button" onclick="nextPage()">Next</button>
+        </div>
+        <div id="page3" class="page">
+            <div class="content">
+                <h2>Page 3: Step 2</h2>
+                <p>This is the second step of the tutorial. You are doing great! Click the next button to continue.</p>
+            </div>
+            <button id="next-button" onclick="nextPage()">Next</button>
+        </div>
+        <div id="page4" class="page">
+            <div class="content">
+                <h2>Page 4: Step 3</h2>
+                <p>This is the third step of the tutorial. Almost there! Click the next button to continue.</p>
+            </div>
+            <button id="next-button" onclick="nextPage()">Next</button>
+        </div>
+        <div id="page5" class="page">
+            <div class="content">
+                <h2>Page 5: Rickroll</h2>
+                <p>You've been Rickrolled!</p>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <p>Download the Rickroll video:</p>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" download="rickroll.mp4">Download Rickroll Video</a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
